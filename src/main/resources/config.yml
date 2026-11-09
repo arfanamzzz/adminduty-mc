@@ -1,0 +1,31 @@
+# ============================================================
+#  AdminDuty - config
+# ============================================================
+
+# Daftar admin yang BOLEH memakai /adminduty (isi nama Minecraft persis).
+# Orang di luar daftar ini tidak bisa duty sama sekali.
+# Boleh juga isi UUID.
+admins:
+  - "NamaMinecraftKamu"
+
+# Saat pindah ke OFF duty, kalau sedang Creative/Spectator
+# otomatis dikembalikan ke Survival.
+off-duty-reset-gamemode: true
+
+# Kasih tahu admin lain yang sedang online kalau ada yang duty/off duty.
+notify-other-admins: true
+
+messages:
+  prefix: "&8[&6AdminDuty&8] &r"
+  on-duty: "&aKamu sekarang &lON DUTY&a. Fitur admin aktif."
+  off-duty: "&eKamu sekarang &lOFF DUTY&e. Fitur admin dimatikan."
+  already-on: "&eKamu sudah on duty."
+  already-off: "&eKamu sudah off duty."
+  status-on: "&aStatus: ON DUTY"
+  status-off: "&eStatus: OFF DUTY"
+  no-permission: "&cKamu bukan admin yang terdaftar."
+  join-off-duty: "&7Kamu otomatis OFF DUTY. Ketik &f/adminduty &7untuk mulai duty."
+  notify-on: "&7%player% &amulai duty&7."
+  notify-off: "&7%player% &eselesai duty&7."
+  reloaded: "&aConfig berhasil di-reload."
+  player-only: "&cPerintah ini hanya untuk pemain (kecuali reload/list)."

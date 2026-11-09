@@ -1,0 +1,10 @@
+name: AdminDuty
+version: '${project.version}'
+main: id.adminduty.AdminDutyPlugin
+api-version: '1.21'
+description: Mode duty admin - fitur admin (op) hanya aktif saat on duty.
+commands:
+  adminduty:
+    description: Toggle mode duty admin
+    usage: /adminduty [on|off|status|list|reload]
+    aliases: [duty]
